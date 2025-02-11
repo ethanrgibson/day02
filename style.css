@@ -1,0 +1,31 @@
+body {
+  margin: 0px
+}
+
+img {
+  width: 860px;
+  height: 860px;
+}
+
+header {
+  background-color: black;
+  color: aliceblue;
+}
+
+main {
+  background-color: black;
+  padding: 10rem;
+  color: aliceblue;
+}
+
+.nav {
+  background-color: lightgray;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
