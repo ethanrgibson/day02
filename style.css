@@ -1,10 +1,11 @@
 body {
-  margin: 0px
+  margin: 0px;
+  flex-direction: column;
 }
 
 img {
-  width: 860px;
-  height: 860px;
+  width: 700px;
+  height: 700px;
 }
 
 header {
@@ -20,6 +21,7 @@ main {
 
 .nav {
   background-color: lightgray;
+  margin: 0px;
 }
 
 .display-flex {
@@ -28,4 +30,8 @@ main {
 
 .justify-content-space-evenly {
   justify-content: space-evenly;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
 }
