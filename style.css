@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   flex-direction: column;
+  min-height: 100dvh;
 }
 
 img {
@@ -11,6 +12,8 @@ img {
 header {
   background-color: black;
   color: aliceblue;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 main {
@@ -20,9 +23,8 @@ main {
 
 .nav {
   background-color: lightgray;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .display-flex {
@@ -42,9 +44,35 @@ main {
 }
 
 .padding-gutters {
-  padding: 0 20em;
+  padding: 0 10em;
 }
 
 .justify-content-space-between {
   justify-content: space-between;
+}
+
+.gap {
+  gap: 6rem;
+  margin-top: 2rem;
+  padding-left: 7em;
+}
+
+.footer {
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-font {
+  font-size: 25px;
+}
+
+@media screen AND (max-width: 700px) {
+  main {
+    background-color: pink;
+  }
 }
